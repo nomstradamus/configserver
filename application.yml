@@ -40,7 +40,7 @@ spring:
   profiles: docker
   cloud:
     config:
-      uri: http://${CONFIGSERVER_1_PORT_8888_TCP_ADDR:localhost}:8888
+      uri: http://${CONFIGSERVER_1_PORT_8888_TCP_ADDR:localhost}:8080
 endpoints:
   restart: enabled
 eureka:
